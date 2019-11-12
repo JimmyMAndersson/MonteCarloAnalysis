@@ -1,0 +1,581 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7F2FB845237472F8008ADEA5 /* BackgroundLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F2FB844237472F8008ADEA5 /* BackgroundLayer.swift */; };
+		7F4A1245237339E2006C9005 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F4A1244237339E2006C9005 /* AppDelegate.swift */; };
+		7F4A1247237339E2006C9005 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F4A1246237339E2006C9005 /* SceneDelegate.swift */; };
+		7F4A124E237339E4006C9005 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F4A124D237339E4006C9005 /* Assets.xcassets */; };
+		7F4A1251237339E4006C9005 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F4A124F237339E4006C9005 /* LaunchScreen.storyboard */; };
+		7F4A12592373568A006C9005 /* SimulatorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F4A12582373568A006C9005 /* SimulatorProtocol.swift */; };
+		7F4A125B237357CC006C9005 /* SelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F4A125A237357CC006C9005 /* SelectionViewController.swift */; };
+		7F4A125D23735834006C9005 /* SelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F4A125C23735834006C9005 /* SelectionView.swift */; };
+		7F4B27A72376EB870073E77D /* Simulator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F4B27A62376EB870073E77D /* Simulator.swift */; };
+		7F4D516223736B2500934D91 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F4D516123736B2500934D91 /* UIColorExtension.swift */; };
+		7F4D51642373734300934D91 /* SimulationLineChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F4D51632373734300934D91 /* SimulationLineChartView.swift */; };
+		7F4D51662373740500934D91 /* HighlightableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F4D51652373740500934D91 /* HighlightableButton.swift */; };
+		7F6EBD4F23773490005483C5 /* Initializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6EBD4E23773490005483C5 /* Initializable.swift */; };
+		7F6EBD51237736E7005483C5 /* SimulatorDataSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6EBD50237736E7005483C5 /* SimulatorDataSet.swift */; };
+		7F6EBD5323773B17005483C5 /* RouletteGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6EBD5223773B17005483C5 /* RouletteGame.swift */; };
+		7F6EBD55237747A2005483C5 /* TitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6EBD54237747A2005483C5 /* TitleLabel.swift */; };
+		7F6EBD5723774842005483C5 /* InfoLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6EBD5623774841005483C5 /* InfoLabel.swift */; };
+		7F8E5C572376FF3F005353E8 /* GameProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8E5C562376FF3F005353E8 /* GameProtocol.swift */; };
+		7F8E5C592376FF8C005353E8 /* DataSetProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8E5C582376FF8C005353E8 /* DataSetProtocol.swift */; };
+		7F8E5C5B2376FFB1005353E8 /* GameRoundOutcome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8E5C5A2376FFB1005353E8 /* GameRoundOutcome.swift */; };
+		7F8E5C5D2376FFC8005353E8 /* ExtremePoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8E5C5C2376FFC8005353E8 /* ExtremePoint.swift */; };
+		7F944D7A2379CA5300FDEA8A /* DistributionLineChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F944D792379CA5300FDEA8A /* DistributionLineChartView.swift */; };
+		7F9A1FFB23770A4E00D9D958 /* LineChartDataSetExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F9A1FFA23770A4E00D9D958 /* LineChartDataSetExtension.swift */; };
+		7FF2124C23787FF5001164FA /* SimulatorOptionsControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF2124B23787FF5001164FA /* SimulatorOptionsControl.swift */; };
+		7FF212502378A143001164FA /* WheelOfFortuneGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF2124F2378A143001164FA /* WheelOfFortuneGame.swift */; };
+		7FF212522378A158001164FA /* CrapsPassLineGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF212512378A158001164FA /* CrapsPassLineGame.swift */; };
+		7FF212542378A8B6001164FA /* ViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF212532378A8B6001164FA /* ViewManager.swift */; };
+		7FF212562378AA4A001164FA /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF212552378AA4A001164FA /* ResultsViewController.swift */; };
+		7FF212582378AB0F001164FA /* ResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF212572378AB0F001164FA /* ResultsView.swift */; };
+		C2719BCF2E6DC95F2B490EC4 /* Pods_Monte_Carlo_Analysis.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0F8FCE11CEAFBCC25F6C634 /* Pods_Monte_Carlo_Analysis.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7F2FB844237472F8008ADEA5 /* BackgroundLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundLayer.swift; sourceTree = "<group>"; };
+		7F4A1241237339E2006C9005 /* Monte Carlo Analysis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Monte Carlo Analysis.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F4A1244237339E2006C9005 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7F4A1246237339E2006C9005 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7F4A124D237339E4006C9005 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7F4A1250237339E4006C9005 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7F4A1252237339E4006C9005 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F4A12582373568A006C9005 /* SimulatorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimulatorProtocol.swift; sourceTree = "<group>"; };
+		7F4A125A237357CC006C9005 /* SelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionViewController.swift; sourceTree = "<group>"; };
+		7F4A125C23735834006C9005 /* SelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionView.swift; sourceTree = "<group>"; };
+		7F4B27A62376EB870073E77D /* Simulator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Simulator.swift; sourceTree = "<group>"; };
+		7F4D515C237362A400934D91 /* Charts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Charts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F4D516123736B2500934D91 /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		7F4D51632373734300934D91 /* SimulationLineChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimulationLineChartView.swift; sourceTree = "<group>"; };
+		7F4D51652373740500934D91 /* HighlightableButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighlightableButton.swift; sourceTree = "<group>"; };
+		7F6EBD4E23773490005483C5 /* Initializable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Initializable.swift; sourceTree = "<group>"; };
+		7F6EBD50237736E7005483C5 /* SimulatorDataSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimulatorDataSet.swift; sourceTree = "<group>"; };
+		7F6EBD5223773B17005483C5 /* RouletteGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouletteGame.swift; sourceTree = "<group>"; };
+		7F6EBD54237747A2005483C5 /* TitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleLabel.swift; sourceTree = "<group>"; };
+		7F6EBD5623774841005483C5 /* InfoLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoLabel.swift; sourceTree = "<group>"; };
+		7F8E5C562376FF3F005353E8 /* GameProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameProtocol.swift; sourceTree = "<group>"; };
+		7F8E5C582376FF8C005353E8 /* DataSetProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSetProtocol.swift; sourceTree = "<group>"; };
+		7F8E5C5A2376FFB1005353E8 /* GameRoundOutcome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameRoundOutcome.swift; sourceTree = "<group>"; };
+		7F8E5C5C2376FFC8005353E8 /* ExtremePoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtremePoint.swift; sourceTree = "<group>"; };
+		7F944D792379CA5300FDEA8A /* DistributionLineChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistributionLineChartView.swift; sourceTree = "<group>"; };
+		7F9A1FFA23770A4E00D9D958 /* LineChartDataSetExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineChartDataSetExtension.swift; sourceTree = "<group>"; };
+		7FF2124B23787FF5001164FA /* SimulatorOptionsControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimulatorOptionsControl.swift; sourceTree = "<group>"; };
+		7FF2124F2378A143001164FA /* WheelOfFortuneGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WheelOfFortuneGame.swift; sourceTree = "<group>"; };
+		7FF212512378A158001164FA /* CrapsPassLineGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrapsPassLineGame.swift; sourceTree = "<group>"; };
+		7FF212532378A8B6001164FA /* ViewManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewManager.swift; sourceTree = "<group>"; };
+		7FF212552378AA4A001164FA /* ResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
+		7FF212572378AB0F001164FA /* ResultsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsView.swift; sourceTree = "<group>"; };
+		A0F8FCE11CEAFBCC25F6C634 /* Pods_Monte_Carlo_Analysis.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Monte_Carlo_Analysis.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D27C6A577CA6BD0254C56F83 /* Pods-Monte Carlo Analysis.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Monte Carlo Analysis.debug.xcconfig"; path = "Target Support Files/Pods-Monte Carlo Analysis/Pods-Monte Carlo Analysis.debug.xcconfig"; sourceTree = "<group>"; };
+		DE10509B79BD3DAFB0496E93 /* Pods-Monte Carlo Analysis.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Monte Carlo Analysis.release.xcconfig"; path = "Target Support Files/Pods-Monte Carlo Analysis/Pods-Monte Carlo Analysis.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7F4A123E237339E2006C9005 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2719BCF2E6DC95F2B490EC4 /* Pods_Monte_Carlo_Analysis.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		42CEC5CBEE55E3DD790FCE29 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D27C6A577CA6BD0254C56F83 /* Pods-Monte Carlo Analysis.debug.xcconfig */,
+				DE10509B79BD3DAFB0496E93 /* Pods-Monte Carlo Analysis.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7F2FB83F237472AC008ADEA5 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				7F4A1244237339E2006C9005 /* AppDelegate.swift */,
+				7F4A1246237339E2006C9005 /* SceneDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		7F2FB841237472BD008ADEA5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7F4A125A237357CC006C9005 /* SelectionViewController.swift */,
+				7FF212552378AA4A001164FA /* ResultsViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7F2FB842237472CE008ADEA5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7F6EBD5823774EDF005483C5 /* Games */,
+				7F6EBD5923774F22005483C5 /* Simulator */,
+				7F6EBD4E23773490005483C5 /* Initializable.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7F2FB843237472D7008ADEA5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7F6EBD5A23774F62005483C5 /* Charts */,
+				7F6EBD5B23774F7D005483C5 /* Labels */,
+				7FCB47A32379E5CE00388286 /* Controls */,
+				7FF212532378A8B6001164FA /* ViewManager.swift */,
+				7F4D516123736B2500934D91 /* UIColorExtension.swift */,
+				7F2FB844237472F8008ADEA5 /* BackgroundLayer.swift */,
+				7F4A125C23735834006C9005 /* SelectionView.swift */,
+				7FF212572378AB0F001164FA /* ResultsView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7F4A1238237339E2006C9005 = {
+			isa = PBXGroup;
+			children = (
+				7F4A1243237339E2006C9005 /* Monte Carlo Analysis */,
+				7F4A1242237339E2006C9005 /* Products */,
+				42CEC5CBEE55E3DD790FCE29 /* Pods */,
+				FF9439346431E0CB0DFB48E4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7F4A1242237339E2006C9005 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7F4A1241237339E2006C9005 /* Monte Carlo Analysis.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7F4A1243237339E2006C9005 /* Monte Carlo Analysis */ = {
+			isa = PBXGroup;
+			children = (
+				7F2FB83F237472AC008ADEA5 /* Delegates */,
+				7F2FB841237472BD008ADEA5 /* Controller */,
+				7F2FB842237472CE008ADEA5 /* Model */,
+				7F2FB843237472D7008ADEA5 /* View */,
+				7F4A124D237339E4006C9005 /* Assets.xcassets */,
+				7F4A124F237339E4006C9005 /* LaunchScreen.storyboard */,
+				7F4A1252237339E4006C9005 /* Info.plist */,
+			);
+			path = "Monte Carlo Analysis";
+			sourceTree = "<group>";
+		};
+		7F6EBD5823774EDF005483C5 /* Games */ = {
+			isa = PBXGroup;
+			children = (
+				7F8E5C562376FF3F005353E8 /* GameProtocol.swift */,
+				7F8E5C5A2376FFB1005353E8 /* GameRoundOutcome.swift */,
+				7F6EBD5223773B17005483C5 /* RouletteGame.swift */,
+				7FF2124F2378A143001164FA /* WheelOfFortuneGame.swift */,
+				7FF212512378A158001164FA /* CrapsPassLineGame.swift */,
+			);
+			path = Games;
+			sourceTree = "<group>";
+		};
+		7F6EBD5923774F22005483C5 /* Simulator */ = {
+			isa = PBXGroup;
+			children = (
+				7F4A12582373568A006C9005 /* SimulatorProtocol.swift */,
+				7F8E5C5C2376FFC8005353E8 /* ExtremePoint.swift */,
+				7F8E5C582376FF8C005353E8 /* DataSetProtocol.swift */,
+				7F4B27A62376EB870073E77D /* Simulator.swift */,
+				7F6EBD50237736E7005483C5 /* SimulatorDataSet.swift */,
+			);
+			path = Simulator;
+			sourceTree = "<group>";
+		};
+		7F6EBD5A23774F62005483C5 /* Charts */ = {
+			isa = PBXGroup;
+			children = (
+				7F4D51632373734300934D91 /* SimulationLineChartView.swift */,
+				7F944D792379CA5300FDEA8A /* DistributionLineChartView.swift */,
+				7F9A1FFA23770A4E00D9D958 /* LineChartDataSetExtension.swift */,
+			);
+			path = Charts;
+			sourceTree = "<group>";
+		};
+		7F6EBD5B23774F7D005483C5 /* Labels */ = {
+			isa = PBXGroup;
+			children = (
+				7F6EBD54237747A2005483C5 /* TitleLabel.swift */,
+				7F6EBD5623774841005483C5 /* InfoLabel.swift */,
+			);
+			path = Labels;
+			sourceTree = "<group>";
+		};
+		7FCB47A32379E5CE00388286 /* Controls */ = {
+			isa = PBXGroup;
+			children = (
+				7FF2124B23787FF5001164FA /* SimulatorOptionsControl.swift */,
+				7F4D51652373740500934D91 /* HighlightableButton.swift */,
+			);
+			path = Controls;
+			sourceTree = "<group>";
+		};
+		FF9439346431E0CB0DFB48E4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7F4D515C237362A400934D91 /* Charts.framework */,
+				A0F8FCE11CEAFBCC25F6C634 /* Pods_Monte_Carlo_Analysis.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7F4A1240237339E2006C9005 /* Monte Carlo Analysis */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F4A1255237339E4006C9005 /* Build configuration list for PBXNativeTarget "Monte Carlo Analysis" */;
+			buildPhases = (
+				C8F016F67094E504485C1676 /* [CP] Check Pods Manifest.lock */,
+				7F4A123D237339E2006C9005 /* Sources */,
+				7F4A123E237339E2006C9005 /* Frameworks */,
+				7F4A123F237339E2006C9005 /* Resources */,
+				5A0F9C34B1D49A89C1B7EF07 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Monte Carlo Analysis";
+			productName = "Monte Carlo Analysis";
+			productReference = 7F4A1241237339E2006C9005 /* Monte Carlo Analysis.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7F4A1239237339E2006C9005 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = Applyn;
+				TargetAttributes = {
+					7F4A1240237339E2006C9005 = {
+						CreatedOnToolsVersion = 11.2;
+					};
+				};
+			};
+			buildConfigurationList = 7F4A123C237339E2006C9005 /* Build configuration list for PBXProject "Monte Carlo Analysis" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7F4A1238237339E2006C9005;
+			productRefGroup = 7F4A1242237339E2006C9005 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7F4A1240237339E2006C9005 /* Monte Carlo Analysis */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7F4A123F237339E2006C9005 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F4A1251237339E4006C9005 /* LaunchScreen.storyboard in Resources */,
+				7F4A124E237339E4006C9005 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5A0F9C34B1D49A89C1B7EF07 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Monte Carlo Analysis/Pods-Monte Carlo Analysis-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Monte Carlo Analysis/Pods-Monte Carlo Analysis-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Monte Carlo Analysis/Pods-Monte Carlo Analysis-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C8F016F67094E504485C1676 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Monte Carlo Analysis-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7F4A123D237339E2006C9005 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FF212522378A158001164FA /* CrapsPassLineGame.swift in Sources */,
+				7FF212582378AB0F001164FA /* ResultsView.swift in Sources */,
+				7F4A125B237357CC006C9005 /* SelectionViewController.swift in Sources */,
+				7F4D51642373734300934D91 /* SimulationLineChartView.swift in Sources */,
+				7F4A1245237339E2006C9005 /* AppDelegate.swift in Sources */,
+				7F4A125D23735834006C9005 /* SelectionView.swift in Sources */,
+				7F8E5C5B2376FFB1005353E8 /* GameRoundOutcome.swift in Sources */,
+				7F8E5C592376FF8C005353E8 /* DataSetProtocol.swift in Sources */,
+				7F4D51662373740500934D91 /* HighlightableButton.swift in Sources */,
+				7F4A12592373568A006C9005 /* SimulatorProtocol.swift in Sources */,
+				7F4B27A72376EB870073E77D /* Simulator.swift in Sources */,
+				7F8E5C5D2376FFC8005353E8 /* ExtremePoint.swift in Sources */,
+				7F6EBD5723774842005483C5 /* InfoLabel.swift in Sources */,
+				7F9A1FFB23770A4E00D9D958 /* LineChartDataSetExtension.swift in Sources */,
+				7F6EBD5323773B17005483C5 /* RouletteGame.swift in Sources */,
+				7F6EBD51237736E7005483C5 /* SimulatorDataSet.swift in Sources */,
+				7F4D516223736B2500934D91 /* UIColorExtension.swift in Sources */,
+				7F2FB845237472F8008ADEA5 /* BackgroundLayer.swift in Sources */,
+				7FF212502378A143001164FA /* WheelOfFortuneGame.swift in Sources */,
+				7F6EBD55237747A2005483C5 /* TitleLabel.swift in Sources */,
+				7FF2124C23787FF5001164FA /* SimulatorOptionsControl.swift in Sources */,
+				7F8E5C572376FF3F005353E8 /* GameProtocol.swift in Sources */,
+				7F944D7A2379CA5300FDEA8A /* DistributionLineChartView.swift in Sources */,
+				7FF212542378A8B6001164FA /* ViewManager.swift in Sources */,
+				7FF212562378AA4A001164FA /* ResultsViewController.swift in Sources */,
+				7F4A1247237339E2006C9005 /* SceneDelegate.swift in Sources */,
+				7F6EBD4F23773490005483C5 /* Initializable.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7F4A124F237339E4006C9005 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F4A1250237339E4006C9005 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7F4A1253237339E4006C9005 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7F4A1254237339E4006C9005 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7F4A1256237339E4006C9005 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D27C6A577CA6BD0254C56F83 /* Pods-Monte Carlo Analysis.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D8E6588D7B;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/Pods/**",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Charts/Charts.framework/Headers\"",
+				);
+				INFOPLIST_FILE = "Monte Carlo Analysis/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "se.applyn.Monte-Carlo-Analysis";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7F4A1257237339E4006C9005 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE10509B79BD3DAFB0496E93 /* Pods-Monte Carlo Analysis.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D8E6588D7B;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Charts/Charts.framework/Headers\"",
+					"$(SRCROOT)/Pods/**",
+				);
+				INFOPLIST_FILE = "Monte Carlo Analysis/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "se.applyn.Monte-Carlo-Analysis";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7F4A123C237339E2006C9005 /* Build configuration list for PBXProject "Monte Carlo Analysis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F4A1253237339E4006C9005 /* Debug */,
+				7F4A1254237339E4006C9005 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F4A1255237339E4006C9005 /* Build configuration list for PBXNativeTarget "Monte Carlo Analysis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F4A1256237339E4006C9005 /* Debug */,
+				7F4A1257237339E4006C9005 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7F4A1239237339E2006C9005 /* Project object */;
+}
